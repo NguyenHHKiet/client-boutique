@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import io from "socket.io-client";
 import useAxios from "../../hooks/useAxios";
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://server-boutique-tau.vercel.app");
 
 const ChatBox = () => {
     const [username, setUsername] = useState("CLIENT");

@@ -30,7 +30,7 @@ const Loader = () => {
     );
 };
 
-axios.defaults.baseURL = "http://localhost:5000/api";
+axios.defaults.baseURL = "https://server-boutique-tau.vercel.app/api";
 axios.defaults.headers["Content-Type"] = "application/json";
 axios.defaults.withCredentials = true;
 
